@@ -1,0 +1,110 @@
+#form {
+  width: 80%;
+  border: 1px solid #c2c2c2;
+  padding: 20px;
+  box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.29);
+}
+
+form
+{
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  margin: 0 0 0.5em 0;
+  -webkit-box-sizing: border-box;
+  /* Pour les anciennes versions des navigateurs WebKit */
+  -moz-box-sizing: border-box;
+  /* Pour tous les navigateurs Gecko */
+  box-sizing: border-box;
+  background-color:  var(--bg_color_2);
+  padding: 0.2em 1em;
+  color: inherit;
+}
+
+#listeAuteurs
+{
+  padding-top: 1em;
+  margin: auto;
+}
+
+#listeAuteurs *
+{
+  margin: auto;
+  text-align: center;
+}
+
+table
+{
+  border-collapse: collapse;
+  color: white;
+  overflow-y: scroll;
+}
+
+td
+{
+  border: 1px solid;
+  padding: 5px 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--color_emphasize1);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: var(--color_emphasize1);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: var(--color_emphasize1);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: var(--color_emphasize1);
+}
+
+#cat
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cat p
+{
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 20%;
+}
+
+textarea
+{
+  width: 94%;
+  height: 25em;
+  border: none;
+  border-radius: 2px;
+  margin: 0.2em 3%;
+}
+
+#newCat, .search
+{
+  width: 80% !important;
+}
+
+input[type="submit"]
+{
+  width: 18% !important;
+}
+
+img
+{
+  max-width: 5em;
+  max-height: 5em;
+}
+
+#t_consult
+{
+  width: 100%;
+}
+
+#t_auteur
+{
+  width: 60%;
+}

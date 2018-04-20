@@ -1,0 +1,39 @@
+body
+{
+  font-size: 12px;
+}
+
+main
+{
+  margin: 1.5em 0;
+}
+
+h1
+{
+  font-size: 1.4em;
+}
+
+h2
+{
+  font-size: 1.2em;
+}
+
+section
+{
+  justify-content: center;
+}
+
+header
+{
+  line-height: 3em;
+}
+
+p, li
+{
+  padding: 0.3em 1em;
+}
+
+#t_consult th:nth-child(3), #t_consult td:nth-child(3)
+{
+  display: none;
+}
